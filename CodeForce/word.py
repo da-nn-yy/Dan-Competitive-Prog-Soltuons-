@@ -8,7 +8,7 @@ for char in word:
   elif char.islower():
     lower += 1
 
-if upper == lower:
-  print(word.lower())
-else:
+if upper > lower:
   print(word.upper())
+else:
+  print(word.lower())
