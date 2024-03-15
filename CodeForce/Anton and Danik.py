@@ -1,3 +1,4 @@
+n = int(input())
 s = input().upper()
 a = s.count('A')
 d = s.count('D')
